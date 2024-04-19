@@ -1,0 +1,14 @@
+[package]
+name = "code"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+debug = true
+
+[dependencies]
+#photon-rs = "0.3.2"
+image = "0.24.0"
+imageproc = "0.24.0"
+rayon = "1.10.0"
+#pulp = "0.18.9"
